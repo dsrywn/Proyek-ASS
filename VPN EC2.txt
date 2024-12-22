@@ -1,0 +1,36 @@
+Install openvpn
+sudo apt update 
+sudo apt install openvpn easy-rsa
+mkdir ~/easy-rsa
+ln -s /usr/share/easy-rsa/* ~/easy-rsa/
+sudo chown root ~/easy-rsa atau sudo chown ubuntu ~/easy-rsa
+chmod 755 ~/easy-rsa
+cd ~/easy-rsa
+./easyrsa init-pki
+sudo ./easyrsa build-ca nopass
+sudo ./easyrsa gen-req server nopass
+sudo ./easyrsa sign-req server server 
+sudo ./easyrsa gen-dh
+sudo cp ca.crt /etc/openvpn
+sudo cp server.key /etc/openvpn
+sudo cp server.crt /etc/openvpn
+sudo cp ca.key /etc/openvpn
+cd /etc/openvpn/server
+sudo nano server.conf #Isi dengan file server.conf
+sudo sysctl -w net.ipv4.ip_forward=1
+sudo systemctl -f enable openvpn-server@server.service
+sudo systemctl start openvpn-server@server.service
+sudo systemctl status openvpn-server@server.service
+cd ~/easy-rsa
+./easyrsa gen-req client1 nopass 
+./easyrsa sign-req client client1
+sudo mkdir ~/client/
+sudo cp client1.crt ~/client/
+sudo cp client1.key ~/client/
+cp /usr/share/doc/openvpn/examples/sample-config-files/client.conf ~/client/vpn.conf 
+
+#Download file diluar ssh (server remote ke local)
+PS C:\Users\binta> scp -i "koentji.pem" ubuntu@ec2-52-72-64-122.compute-1.amazonaws.com:~/client/ca.crt D:\Main\Downloads
+PS C:\Users\binta> scp -i "koentji.pem" ubuntu@ec2-52-72-64-122.compute-1.amazonaws.com:~/client/client1.key D:\Main\Downloads
+PS C:\Users\binta> scp -i "koentji.pem" ubuntu@ec2-52-72-64-122.compute-1.amazonaws.com:~/client/client1.crt D:\Main\Downloads
+PS C:\Users\binta> scp -i "koentji.pem" ubuntu@ec2-52-72-64-122.compute-1.amazonaws.com:~/client/vpn.conf D:\Main\Downloads

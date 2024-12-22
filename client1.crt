@@ -1,0 +1,84 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            bf:08:0e:4e:69:6c:3f:a5:14:6b:40:0b:91:40:d6:f2
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=proyek
+        Validity
+            Not Before: Dec  2 03:26:34 2024 GMT
+            Not After : Mar  7 03:26:34 2027 GMT
+        Subject: CN=labubu
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ca:22:ad:cf:ea:b7:20:df:d4:15:22:c8:c7:85:
+                    1b:c3:17:d6:b4:57:a7:bc:72:13:b0:2e:b6:30:ca:
+                    d3:f5:86:e8:0a:19:c3:81:bf:6d:1d:65:e0:a4:c0:
+                    e1:6a:ca:29:b5:7c:a8:6c:35:7e:97:06:4e:0d:9a:
+                    86:96:6a:83:b6:49:88:87:d3:b4:6b:69:24:27:4c:
+                    cf:b0:da:1f:93:83:c0:49:05:64:17:91:f9:d3:10:
+                    70:d5:92:3e:5c:47:d5:46:18:90:48:ab:fb:3f:ac:
+                    92:ad:c3:49:c5:1c:b2:9a:81:c7:f9:a1:98:c9:3e:
+                    80:17:4d:ad:b3:3f:2c:c9:73:a7:28:d1:56:5d:c3:
+                    42:6d:89:c7:52:83:55:ea:07:f5:48:3c:04:cb:fb:
+                    d3:cb:7d:f7:cd:03:6a:ed:ee:45:e9:a0:75:21:7a:
+                    81:b6:a0:ea:d0:34:18:b6:ff:f1:6e:7c:33:00:e1:
+                    34:13:fc:15:c3:76:aa:e5:a4:8d:2f:f2:77:84:14:
+                    8f:ee:8d:cf:a5:8d:9f:d3:64:5b:06:6c:1a:fc:58:
+                    16:26:ec:fc:6b:ea:f3:ab:ab:ad:b8:53:a0:2d:5d:
+                    ac:32:c1:59:bb:be:6a:f2:19:0e:14:8e:ea:63:47:
+                    d1:0d:aa:4d:e2:6d:98:ee:b2:ba:5d:0d:36:29:83:
+                    3e:bb
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                7A:19:FB:5C:C9:19:73:08:95:E6:EA:B3:7A:F3:30:BE:B3:57:BC:13
+            X509v3 Authority Key Identifier: 
+                keyid:CF:E3:7A:E5:5D:E8:12:E6:E4:AD:86:78:00:66:F0:5F:A3:6F:2E:5B
+                DirName:/CN=proyek
+                serial:10:84:60:B8:2F:5D:0A:17:90:D7:9C:74:AB:0C:69:72:86:C2:26:F1
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        11:9f:5b:20:68:19:31:3a:69:c7:47:41:ab:25:ce:c6:fa:16:
+        be:15:fe:06:35:af:f7:23:aa:21:e3:ef:87:9e:03:d6:b9:68:
+        61:e0:63:3d:4d:b1:45:31:50:c7:48:b6:e5:07:c5:a9:ef:85:
+        74:1c:03:16:b1:a8:a4:c4:8e:3d:ff:7d:ce:c0:fc:03:f7:43:
+        36:6d:36:ed:3f:fe:9c:0f:55:3f:f3:00:bf:ed:5f:3e:6c:74:
+        87:c1:89:7f:7c:22:2c:46:3c:b8:b8:c9:1e:ee:c7:26:4d:42:
+        50:11:d5:60:4b:91:c7:cf:1f:ae:75:41:a4:39:79:54:af:cf:
+        ce:2b:22:5b:b7:9e:39:42:2f:d1:f6:54:5c:ee:ec:8c:d3:c8:
+        3e:03:6a:4c:a6:c7:3c:76:84:07:d6:b9:cf:38:4d:2d:0b:a8:
+        79:7e:1f:c6:87:88:78:b7:ac:57:42:17:11:e2:94:fc:65:98:
+        c7:a6:93:1a:5f:ea:7c:7a:06:ea:54:09:6c:88:ae:01:e1:fd:
+        73:74:76:4f:8f:fe:96:ff:3b:9e:29:81:76:a1:e6:6b:94:69:
+        11:4b:f6:9d:93:a6:ad:88:6c:49:d5:7e:6d:6d:d1:fd:3a:f1:
+        3c:b9:fd:63:e2:c6:06:c2:af:bf:dc:55:50:82:60:93:44:ff:
+        07:dd:3b:29
+-----BEGIN CERTIFICATE-----
+MIIDSzCCAjOgAwIBAgIRAL8IDk5pbD+lFGtAC5FA1vIwDQYJKoZIhvcNAQELBQAw
+ETEPMA0GA1UEAwwGcHJveWVrMB4XDTI0MTIwMjAzMjYzNFoXDTI3MDMwNzAzMjYz
+NFowETEPMA0GA1UEAwwGbGFidWJ1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAyiKtz+q3IN/UFSLIx4UbwxfWtFenvHITsC62MMrT9YboChnDgb9tHWXg
+pMDhasoptXyobDV+lwZODZqGlmqDtkmIh9O0a2kkJ0zPsNofk4PASQVkF5H50xBw
+1ZI+XEfVRhiQSKv7P6ySrcNJxRyymoHH+aGYyT6AF02tsz8syXOnKNFWXcNCbYnH
+UoNV6gf1SDwEy/vTy333zQNq7e5F6aB1IXqBtqDq0DQYtv/xbnwzAOE0E/wVw3aq
+5aSNL/J3hBSP7o3PpY2f02RbBmwa/FgWJuz8a+rzq6utuFOgLV2sMsFZu75q8hkO
+FI7qY0fRDapN4m2Y7rK6XQ02KYM+uwIDAQABo4GdMIGaMAkGA1UdEwQCMAAwHQYD
+VR0OBBYEFHoZ+1zJGXMIlebqs3rzML6zV7wTMEwGA1UdIwRFMEOAFM/jeuVd6BLm
+5K2GeABm8F+jby5boRWkEzARMQ8wDQYDVQQDDAZwcm95ZWuCFBCEYLgvXQoXkNec
+dKsMaXKGwibxMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDANBgkq
+hkiG9w0BAQsFAAOCAQEAEZ9bIGgZMTppx0dBqyXOxvoWvhX+BjWv9yOqIePvh54D
+1rloYeBjPU2xRTFQx0i25QfFqe+FdBwDFrGopMSOPf99zsD8A/dDNm027T/+nA9V
+P/MAv+1fPmx0h8GJf3wiLEY8uLjJHu7HJk1CUBHVYEuRx88frnVBpDl5VK/Pzisi
+W7eeOUIv0fZUXO7sjNPIPgNqTKbHPHaEB9a5zzhNLQuoeX4fxoeIeLesV0IXEeKU
+/GWYx6aTGl/qfHoG6lQJbIiuAeH9c3R2T4/+lv87nimBdqHma5RpEUv2nZOmrYhs
+SdV+bW3R/TrxPLn9Y+LGBsKvv9xVUIJgk0T/B907KQ==
+-----END CERTIFICATE-----
